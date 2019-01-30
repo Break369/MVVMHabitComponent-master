@@ -20,6 +20,7 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.RecyclerView
+            android:id="@+id/md_contentRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@android:color/transparent"
@@ -27,6 +28,6 @@
             binding:itemBinding="@{viewModel.itemBinding}"
             binding:items="@{viewModel.observableList}"
             binding:lineManager="@{LineManagers.both()}"
-            binding:layoutManager="@{LayoutManagers.grid(4)}" />
+            binding:layoutManager="@{LayoutManagers.grid(3)}" />
     </LinearLayout>
 </layout>

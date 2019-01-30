@@ -33,5 +33,6 @@ public class WorkFragment extends BaseFragment<FragmentWorkBinding, WorkViewMode
 
     @Override
     public void initData() {
+
     }
 }

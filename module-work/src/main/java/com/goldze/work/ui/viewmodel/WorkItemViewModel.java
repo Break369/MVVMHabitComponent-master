@@ -11,6 +11,7 @@ import me.goldze.mvvmhabit.base.ItemViewModel;
  */
 
 public class WorkItemViewModel extends ItemViewModel {
+
     public ObservableField<String> text = new ObservableField<>();
 
     public WorkItemViewModel(@NonNull BaseViewModel viewModel, String text) {
